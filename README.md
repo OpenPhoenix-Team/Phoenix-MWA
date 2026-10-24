@@ -1,4 +1,5 @@
 > ⭐ If you find Phoenix-MWA useful, please star [Anyverse-Dynamics/Phoenix-MWA](https://github.com/Anyverse-Dynamics/Phoenix-MWA)!
+> Future updates will be maintained in the [Anyverse-Dynamics/Phoenix-MWA](https://github.com/Anyverse-Dynamics/Phoenix-MWA) repository.
 
 <p align="center">
   <a href="https://anyverse.com/"><img src="docs/assets/anyverse-dynamics-logo.webp" alt="Anyverse Dynamics" height="34" align="middle"></a>&emsp;
