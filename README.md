@@ -31,9 +31,9 @@
 This is the **main branch of Phoenix-MWA**, providing the **world–action pretraining code**. Other components are organized into dedicated branches:
 
 - **Post-training & benchmark evaluation:** See the [post-train branch](https://github.com/OpenPhoenix-Team/Phoenix-MWA/tree/post-train).
-- **Encoder pretraining (dual-teacher distillation & CS-VAE training):** See the `encoder` branch *(coming soon)*.
+- **Encoder pretraining (dual-teacher distillation & CS-VAE training):** See the [encoder-pretrain branch](https://github.com/OpenPhoenix-Team/Phoenix-MWA/tree/encoder-pretrain).
 - **Data processing pipeline:** See the `data` branch *(coming soon)*.
-- **Real-world RTC training & asynchronous inference deployment:** See the `rtc` branch *(coming soon)*.
+- **Real-world RTC training & asynchronous inference deployment:** See the [prometheus branch](https://github.com/OpenPhoenix-Team/Phoenix-MWA/tree/prometheus).
 
 ## Overview
 
@@ -68,6 +68,22 @@ downstream tasks.
 | `docs/` | Training guide and resource layout |
 
 ## Getting Started
+
+### Component branches
+
+Clone the component you need into its own directory, then follow its README:
+
+```bash
+# Phoenix Encoder pretraining
+git clone --single-branch --branch encoder-pretrain \
+  https://github.com/OpenPhoenix-Team/Phoenix-MWA.git Phoenix-Encoder
+
+# Prometheus robot runtime and the Phoenix Training RTC example
+git clone --single-branch --branch prometheus \
+  https://github.com/OpenPhoenix-Team/Phoenix-MWA.git Prometheus
+```
+
+### World–action pretraining on main
 
 Use Python 3.10 with a compatible NVIDIA CUDA environment. The project pins
 PyTorch 2.7.1 and torchvision 0.22.1; install the matching accelerator build
