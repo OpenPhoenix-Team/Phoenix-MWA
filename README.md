@@ -190,9 +190,20 @@ remain subject to their respective licenses.
 
 Welcome to join us to share experimental results, ask questions, and exchange different viewpoints:
 
-<p align="center">
-  <img src="docs/assets/wechat-group-qr.jpg" alt="MWA-Phoenix WeChat group QR code" width="420">
-</p>
+<table>
+  <tr>
+    <th>MWA-Phoenix 开源交流群</th>
+    <th>Phoenix 开源交流 2 群</th>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="docs/assets/wechat-group-qr.jpg" width="320">
+    </td>
+    <td align="center">
+      <img src="docs/assets/wechat-group-2-qr.jpg" width="320">
+    </td>
+  </tr>
+</table>
 
 ## License
 
